@@ -1,0 +1,12 @@
+# This is the network config written by 'obb'
+network:
+  version: 2
+  ethernets:
+    eno1:
+      dhcp4: true
+      dhcp4-overrides:
+        route-metric: 500
+    enp1s0:
+      dhcp4: true
+      dhcp4-overrides:
+        route-metric: 100
